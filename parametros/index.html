@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #campo_nome
+    {
+        left: 95px;
+        top: 23px;
+        width: 225px;
+    }
+    .area
+    {
+        position: absolute;
+        left: 37%;
+        top: 29%;
+        width: 320px;
+        right: 270px;
+
+    }
+</style>
+</head>
+<body>
+    <div class="area">
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input id="campo_nome" type="text" nome="Nome" placeholder="Digite o Nome" required> 
+            <br><br>
+            <label for="nome">E-mail:</label>
+            <input id="campo_nome" type="email" name="Nome"placeholder="Digite o e-mail" required>
+            <br><br>
+           
+            <label for="fone">Celular com DDD</label>
+            <input type="tel" id="fone" name="fone" required
+            pattern="[0-9]{2} [0-9] {5}-[0-9]{4}" placeholder="11 99999-9999" required>
+            <br><br>
+            <label for="hora desejada">Hora desejada</label>
+            <input type="time" id="hora desejada" name="hora desejada" required>
+            <br><br>
+            <label for="site">Seu site</label>
+            <input type="url" id="site" required><br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar"> 
+        </form>
+
+    </div>
+</body>
+</html>
